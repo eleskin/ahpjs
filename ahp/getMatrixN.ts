@@ -6,11 +6,11 @@ import getTransposedMatrix from './getTransposedMatrix';
 import decimalAdjust from './decimalAdjust';
 
 const getMatrixN = (matrixA: Matrix): Matrix => {
-	const matrixN: Matrix = matrixA.map((column: number[], index: number) => {
+	const matrixN: Matrix = getTransposedMatrix(getTransposedMatrix(matrixA).map((column: number[], index: number) => {
 		return column.map((item: number) => decimalAdjust(item / getSumMatrixColumns(matrixA)[index]));
-	});
+	}));
 	const array = matrixN.flat();
-	const omega = getOmega(getTransposedMatrix(matrixN));
+	const omega = getOmega(matrixN);
 	if (matrixN.length === [...new Set(array)].length) {
 		return matrixN;
 	} else {
