@@ -17,7 +17,7 @@ const getMatrixN = (matrixA: Matrix): Matrix => {
 		return transposedMatrixN;
 	} else {
 		if (getCR(transposedMatrixN.length, matrixA, omega) >= 0.1) {
-			//throw new Error('Матрица рассогласована');
+			throw new Error('Матрица рассогласована');
 		} else {
 			return transposedMatrixN;
 		}

@@ -23,11 +23,10 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	}).map((item) => Object.values(item))));
 	const matrixNForItems = getMatrixNForItems(matrixAForItems);
 	const omegaForItems = getOmegaForItems(matrixNForItems);
-	if (getCR(matrixN.length, weights, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
-		alert('Матрица рассогласована');
-		//throw new Error('Матрица рассогласована');
+	if (getCR(matrixN.length, weights, getOmega(matrixN)) >= 0.1) {
+		throw new Error('Матрица рассогласована');
 	}
-	return getResultOmega(getTransposedMatrix(omegaForItems), getOmega(getTransposedMatrix(matrixN)));
+	return getResultOmega(getTransposedMatrix(omegaForItems), getOmega(matrixN));
 };
 
 export default getHierarchyAnalysisResult;
