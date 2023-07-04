@@ -81,7 +81,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getResultOmega">
+  <component name="RunManager" selected="Jest.getSumColumnsMatrixAForItems">
     <configuration name="getMatrixAForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -91,18 +91,6 @@
       <test-file value="$PROJECT_DIR$/ahp/__tests__/getMatrixAForItems.test.ts" />
       <test-names>
         <test-name value="getMatrixAForItems" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="getMatrixN" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" />
-      <test-names>
-        <test-name value="getMatrixN" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -142,13 +130,25 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="getSumColumnsMatrixAForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getSumColumnsMatrixAForItems.test.ts" />
+      <test-names>
+        <test-name value="getSumColumnsMatrixAForItems" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getSumColumnsMatrixAForItems" />
         <item itemvalue="Jest.getResultOmega" />
         <item itemvalue="Jest.getOmegaForItems" />
         <item itemvalue="Jest.getMatrixNForItems" />
         <item itemvalue="Jest.getMatrixAForItems" />
-        <item itemvalue="Jest.getMatrixN" />
       </list>
     </recent_temporary>
   </component>
