@@ -13,7 +13,7 @@ const getMatrixN = (matrixA: Matrix): Matrix => {
 	if (matrixN.length === [...new Set(array)].length) {
 		return matrixN;
 	} else {
-		if (getCR(matrixA, matrixN, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
+		if (getCR(matrixN.length, matrixA, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
 			throw new Error('Матрица рассогласована');
 		} else {
 			return matrixN;

@@ -23,7 +23,7 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	}).map((item) => Object.values(item))));
 	const matrixNForItems = getMatrixNForItems(matrixAForItems);
 	const omegaForItems = getOmegaForItems(matrixNForItems);
-	if (getCR(matrixN, weights, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
+	if (getCR(matrixN.length, weights, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
 		alert('Матрица рассогласована');
 		throw new Error('Матрица рассогласована');
 	}
