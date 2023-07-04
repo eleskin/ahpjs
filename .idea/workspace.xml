@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added decimalAdjust">
-      <change beforePath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/decimalAdjust.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/decimalAdjust.ts" afterDir="false" />
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added getSumMatrixColumns test">
       <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +73,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getSumMatrixColumns">
+  <component name="RunManager" selected="Jest.getMatrixN">
     <configuration name="Ad" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -139,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.getSumMatrixColumns" />
         <item itemvalue="Jest.getMatrixN" />
+        <item itemvalue="Jest.getSumMatrixColumns" />
         <item itemvalue="Jest.Ad" />
         <item itemvalue="Jest.firstTest" />
         <item itemvalue="Jest.decimalAdjust" />
@@ -157,7 +154,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="2749000" />
+      <workItem from="1688499398950" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -215,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688501598307</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added decimalAdjust">
+      <option name="closed" value="true" />
+      <created>1688502193864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688502193864</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added getSumMatrixColumns test">
+      <option name="closed" value="true" />
+      <created>1688502382775</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688502382775</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +256,7 @@
     <MESSAGE value="Added getTransposedMatrix test" />
     <MESSAGE value="Removed getMatrixA" />
     <MESSAGE value="Added decimalAdjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added decimalAdjust" />
+    <MESSAGE value="Added getSumMatrixColumns test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getSumMatrixColumns test" />
   </component>
 </project>
