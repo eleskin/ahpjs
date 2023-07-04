@@ -60,5 +60,5 @@ test('firstTest', () => {
 		weights: weights,
 	});
 	
-	expect(result).toStrictEqual([0.0754939545455119, 0.5636383766007352, 0.36086766885375293]);
+	expect(result).toStrictEqual([0.076, 0.564, 0.361]);
 });
