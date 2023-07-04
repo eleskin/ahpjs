@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Changed getCR test">
-      <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added getMatrixAForItems test">
+      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixNForItems.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMatrixAForItems.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixAForItems.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/getMatrixNForItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixNForItems.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getMatrixN">
+  <component name="RunManager" selected="Jest.getMatrixNForItems">
     <configuration name="getCR" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -98,6 +101,18 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="getMatrixAForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMatrixAForItems.test.ts" />
+      <test-names>
+        <test-name value="getMatrixAForItems" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="getMatrixN" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -110,37 +125,25 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getOmega" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="getMatrixNForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getOmega.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMatrixNForItems.test.ts" />
       <test-names>
-        <test-name value="getOmega" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="getOmegaForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getOmegaForItems.test.ts" />
-      <test-names>
-        <test-name value="getOmegaForItems" />
+        <test-name value="getMatrixNForItems" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getMatrixNForItems" />
+        <item itemvalue="Jest.getMatrixAForItems" />
         <item itemvalue="Jest.getMatrixN" />
         <item itemvalue="Jest.getCR2" />
         <item itemvalue="Jest.getCR" />
-        <item itemvalue="Jest.getOmega" />
-        <item itemvalue="Jest.getOmegaForItems" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="6701000" />
+      <workItem from="1688499398950" duration="10815000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -284,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1688505518019</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed getMatrixN test">
+      <option name="closed" value="true" />
+      <created>1688506164593</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688506164593</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed getMatrixN">
+      <option name="closed" value="true" />
+      <created>1688506228083</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688506228083</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added getMatrixAForItems test">
+      <option name="closed" value="true" />
+      <created>1688509773815</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688509773815</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +345,9 @@
     <MESSAGE value="Added getCR test" />
     <MESSAGE value="Changed decimalAdjust" />
     <MESSAGE value="Changed getCR test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed getCR test" />
+    <MESSAGE value="Changed getMatrixN test" />
+    <MESSAGE value="Changed getMatrixN" />
+    <MESSAGE value="Added getMatrixAForItems test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getMatrixAForItems test" />
   </component>
 </project>
