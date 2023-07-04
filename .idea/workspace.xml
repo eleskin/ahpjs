@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Changed decimalAdjust">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getCR.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getCR.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/getCR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getCR.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +74,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getOmega">
-    <configuration name="decimalAdjust" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" />
-      <test-names>
-        <test-name value="decimalAdjust" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.getCR2">
     <configuration name="getCR" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -97,6 +84,18 @@
       <test-file value="$PROJECT_DIR$/ahp/__tests__/getCR.test.ts" />
       <test-names>
         <test-name value="getCR" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="getCR2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getCR.test.ts" />
+      <test-names>
+        <test-name value="getCR2" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -124,25 +123,25 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getSumMatrixColumns" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="getOmegaForItems" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getSumMatrixColumns.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getOmegaForItems.test.ts" />
       <test-names>
-        <test-name value="getSumMatrixColumns" />
+        <test-name value="getOmegaForItems" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.getOmega" />
-        <item itemvalue="Jest.getMatrixN" />
-        <item itemvalue="Jest.decimalAdjust" />
+        <item itemvalue="Jest.getCR2" />
         <item itemvalue="Jest.getCR" />
-        <item itemvalue="Jest.getSumMatrixColumns" />
+        <item itemvalue="Jest.getOmega" />
+        <item itemvalue="Jest.getOmegaForItems" />
+        <item itemvalue="Jest.getMatrixN" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +155,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="5618000" />
+      <workItem from="1688499398950" duration="6053000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -270,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688504538520</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changed decimalAdjust">
+      <option name="closed" value="true" />
+      <created>1688505072346</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688505072346</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
