@@ -1,5 +1,5 @@
 import decimalAdjust from '../decimalAdjust';
 
 test('decimalAdjust', () => {
-	expect(decimalAdjust(55.555)).toBe(55.56);
+	expect(decimalAdjust(55.5555)).toBe(55.556);
 });

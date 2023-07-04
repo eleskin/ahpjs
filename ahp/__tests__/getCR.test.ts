@@ -9,7 +9,7 @@ test('getCR', () => {
 	const omega = [0.129, 0.277, 0.594]
 	
 	const result = getCR(3, matrixA, omega);
-	const expectedResult = 0.01;
+	const expectedResult = 0.008;
 	
 	expect(result).toStrictEqual(expectedResult);
 });

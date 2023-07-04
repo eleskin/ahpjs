@@ -8,7 +8,7 @@ test('getOmega', () => {
 	];
 	
 	const result = getOmega(matrixA);
-	const expectedResult = [4.33, 3.33, 3.67];
+	const expectedResult = [4.333, 3.333, 3.667];
 	
 	expect(result).toStrictEqual(expectedResult);
 });
