@@ -10,10 +10,11 @@ const getMatrixN = (matrixA: Matrix): Matrix => {
 		return column.map((item: number) => decimalAdjust(item / getSumMatrixColumns(matrixA)[index]));
 	});
 	const array = matrixN.flat();
+	const omega = getOmega(getTransposedMatrix(matrixN));
 	if (matrixN.length === [...new Set(array)].length) {
 		return matrixN;
 	} else {
-		if (getCR(matrixN.length, matrixA, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
+		if (getCR(matrixN.length, matrixA, omega) >= 0.1) {
 			throw new Error('Матрица рассогласована');
 		} else {
 			return matrixN;
