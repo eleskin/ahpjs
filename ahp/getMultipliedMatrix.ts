@@ -1,11 +1,11 @@
 import {Matrix} from './index';
 
-const getMultipliedMatrix = (a, b): Matrix => {
-	const rowsA = a.length;
-	const colsA = a[0].length;
-	const rowsB = b.length;
-	const colsB = [b][0].length;
-	const c = [];
+const getMultipliedMatrix = (a: Matrix, b: Matrix): Matrix => {
+	const rowsA: number = a.length;
+	const colsA: number = a[0].length;
+	const rowsB: number = b.length;
+	const colsB: number = [b][0].length;
+	const c: Matrix = [];
 	if (colsA !== rowsB) return [];
 	for (let i = 0; i < rowsA; i++) c[i] = [];
 	for (let k = 0; k < colsB; k++) {

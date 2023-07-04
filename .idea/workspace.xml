@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added jest">
-      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added getMultipliedMatrix test">
+      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getTransposedMatrix.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/getTransposedMatrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getTransposedMatrix.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,19 +75,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getMultipliedMatrix">
-    <configuration name="adds 1 + 2 to equal 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/index.test.ts" />
-      <test-names>
-        <test-name value="adds 1 + 2 to equal 3" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.getTransposedMatrix">
     <configuration name="firstTest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -111,6 +100,30 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="getMultipliedMatrixB" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" />
+      <test-names>
+        <test-name value="getMultipliedMatrixB" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="getTransposedMatrix" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getTransposedMatrix.test.ts" />
+      <test-names>
+        <test-name value="getTransposedMatrix" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,10 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getTransposedMatrix" />
+        <item itemvalue="Jest.getMultipliedMatrixB" />
         <item itemvalue="Jest.getMultipliedMatrix" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Jest.firstTest" />
-        <item itemvalue="Jest.adds 1 + 2 to equal 3" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +154,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="324000" />
+      <workItem from="1688499398950" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -158,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688164970903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added getMultipliedMatrix test">
+      <option name="closed" value="true" />
+      <created>1688499738440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688499738440</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +204,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added Jest" />
     <MESSAGE value="Added jest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jest" />
+    <MESSAGE value="Added getMultipliedMatrix test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getMultipliedMatrix test" />
   </component>
 </project>
