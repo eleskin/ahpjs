@@ -4,7 +4,7 @@ import decimalAdjust from './decimalAdjust';
 const getSumMatrixColumns = (matrix: Matrix): number[] => {
 	return matrix.map((column: number[]) => {
 		return decimalAdjust(
-			column.reduce((accumulator: number, currentValue: number) => accumulator + currentValue, 0)
+			column.reduce((accumulator: number, currentValue: number) => decimalAdjust(accumulator + currentValue), 0)
 		);
 	}).reverse();
 };

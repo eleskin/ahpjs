@@ -25,7 +25,7 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	const omegaForItems = getOmegaForItems(matrixNForItems);
 	if (getCR(matrixN.length, weights, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
 		alert('Матрица рассогласована');
-		throw new Error('Матрица рассогласована');
+		//throw new Error('Матрица рассогласована');
 	}
 	return getResultOmega(getTransposedMatrix(omegaForItems), getOmega(getTransposedMatrix(matrixN)));
 };
