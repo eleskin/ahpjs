@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Removed getMatrixA">
-      <change afterPath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/decimalAdjust.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added decimalAdjust">
+      <change beforePath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/decimalAdjust.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/decimalAdjust.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,19 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.decimalAdjust">
+  <component name="RunManager" selected="Jest.getMatrixN">
+    <configuration name="Ad" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" />
+      <test-names>
+        <test-name value="Ad" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="decimalAdjust" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -91,27 +101,27 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getMultipliedMatrix" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="firstTest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/index.test.ts" />
       <test-names>
-        <test-name value="getMultipliedMatrix" />
+        <test-name value="firstTest" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getMultipliedMatrixB" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="getMatrixN" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" />
       <test-names>
-        <test-name value="getMultipliedMatrixB" />
+        <test-name value="getMatrixN" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -127,23 +137,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getMatrixN" />
+        <item itemvalue="Jest.Ad" />
+        <item itemvalue="Jest.firstTest" />
         <item itemvalue="Jest.decimalAdjust" />
         <item itemvalue="Jest.getTransposedMatrix" />
-        <item itemvalue="Jest.getMultipliedMatrixB" />
-        <item itemvalue="Jest.getMultipliedMatrix" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="2143000" />
+      <workItem from="1688499398950" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -199,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688500598098</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added decimalAdjust">
+      <option name="closed" value="true" />
+      <created>1688501579038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688501579038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added decimalAdjust">
+      <option name="closed" value="true" />
+      <created>1688501598307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688501598307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +242,7 @@
     <MESSAGE value="Added getMultipliedMatrix test" />
     <MESSAGE value="Added getTransposedMatrix test" />
     <MESSAGE value="Removed getMatrixA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed getMatrixA" />
+    <MESSAGE value="Added decimalAdjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added decimalAdjust" />
   </component>
 </project>
