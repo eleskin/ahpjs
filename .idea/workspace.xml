@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added getMultipliedMatrix test">
-      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getTransposedMatrix.test.ts" afterDir="false" />
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Removed getMatrixA">
+      <change afterPath="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getMatrixN.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ahp/decimalAdjust.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/getTransposedMatrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getTransposedMatrix.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,43 +51,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.3.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.3.1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/elesk/WebstormProjects/ahpjs/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\elesk\\WebstormProjects\\ahpjs\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "20.3.1",
+    "javascript.nodejs.core.library.typings.version": "20.3.1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/elesk/WebstormProjects/ahpjs/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "C:\\Users\\elesk\\WebstormProjects\\ahpjs\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getTransposedMatrix">
-    <configuration name="firstTest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.decimalAdjust">
+    <configuration name="decimalAdjust" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/index.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/decimalAdjust.test.ts" />
       <test-names>
-        <test-name value="firstTest" />
+        <test-name value="decimalAdjust" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.decimalAdjust" />
         <item itemvalue="Jest.getTransposedMatrix" />
         <item itemvalue="Jest.getMultipliedMatrixB" />
         <item itemvalue="Jest.getMultipliedMatrix" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="Jest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
-      <workItem from="1688499398950" duration="654000" />
+      <workItem from="1688499398950" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -180,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688499738440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added getTransposedMatrix test">
+      <option name="closed" value="true" />
+      <created>1688500068446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688500068446</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed getMatrixA">
+      <option name="closed" value="true" />
+      <created>1688500598098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688500598098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +224,8 @@
     <MESSAGE value="Added Jest" />
     <MESSAGE value="Added jest" />
     <MESSAGE value="Added getMultipliedMatrix test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getMultipliedMatrix test" />
+    <MESSAGE value="Added getTransposedMatrix test" />
+    <MESSAGE value="Removed getMatrixA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed getMatrixA" />
   </component>
 </project>

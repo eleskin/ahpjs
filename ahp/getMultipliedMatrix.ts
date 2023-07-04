@@ -11,7 +11,7 @@ const getMultipliedMatrix = (a: Matrix, b: Matrix): Matrix => {
 	for (let k = 0; k < colsB; k++) {
 		for (let i = 0; i < rowsA; i++) {
 			let t = 0;
-			for (let j = 0; j < rowsB; j++) t += a[i][j] * b[j][k];
+			for (let j = 0; j < rowsB; j++) t += Math.round(a[i][j] * b[j][k]);
 			c[i][k] = t;
 		}
 	}
