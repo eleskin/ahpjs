@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added jest">
-      <change afterPath="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getCR.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getFinalOmega.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getMatrixA.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getMatrixAForItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getMatrixNForItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getMultipliedMatrix.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getOmega.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getOmegaForItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getSumColumnsMatrixAForItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getSumMatrixColumns.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ahp/getTransposedMatrix.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +74,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="Jest.getMultipliedMatrix">
     <configuration name="adds 1 + 2 to equal 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -113,6 +99,18 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="getMultipliedMatrix" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getMultipliedMatrix.test.ts" />
+      <test-names>
+        <test-name value="getMultipliedMatrix" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getMultipliedMatrix" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Jest.firstTest" />
         <item itemvalue="Jest.adds 1 + 2 to equal 3" />
@@ -141,6 +140,7 @@
       <updated>1688157142706</updated>
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
+      <workItem from="1688499398950" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
