@@ -5,7 +5,8 @@ import decimalAdjust from './decimalAdjust';
 
 const getMatrixNForItems = (matrixAForItems: Matrix[]): Matrix[] => {
 	return matrixAForItems.map((matrix: Matrix, indexMatrix: number) => {
-		return getTransposedMatrix(getTransposedMatrix(matrix).map((column: number[], index: number) => {
+		const transposedMatrix = getTransposedMatrix(matrix);
+		return getTransposedMatrix(transposedMatrix.map((column: number[], index: number) => {
 			return column.map((item: number) => {
 				return decimalAdjust(item / getSumColumnsMatrixAForItems(matrixAForItems)[indexMatrix][index]);
 			});
