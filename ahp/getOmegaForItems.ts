@@ -1,10 +1,10 @@
-import getTransposedMatrix from './getTransposedMatrix';
+import decimalAdjust from './decimalAdjust';
 
 const getOmegaForItems = (matrixNForItems) => {
 	return matrixNForItems.map((matrix) => {
-		return getTransposedMatrix(matrix).map((row) => {
+		return matrix.map((row) => {
 			const rowSum = row.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-			return rowSum / row.length;
+			return decimalAdjust(rowSum / row.length);
 		});
 	});
 };
