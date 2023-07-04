@@ -1,4 +1,3 @@
-import getMatrixA from './getMatrixA';
 import getMatrixN from './getMatrixN';
 import getMatrixAForItems from './getMatrixAForItems';
 import getTransposedMatrix from './getTransposedMatrix';
@@ -6,7 +5,7 @@ import getMatrixNForItems from './getMatrixNForItems';
 import getOmegaForItems from './getOmegaForItems';
 import getCR from './getCR';
 import getOmega from './getOmega';
-import getFinalOmega from './getFinalOmega';
+import getResultOmega from './getResultOmega';
 
 export type Matrix = number[][];
 
@@ -15,8 +14,7 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	params: string[],
 	weights: Matrix
 }): number[] => {
-	const matrixA: Matrix = getMatrixA(weights);
-	const matrixN: Matrix = getMatrixN(matrixA);
+	const matrixN: Matrix = getMatrixN(weights);
 	const matrixAForItems = getMatrixAForItems(getTransposedMatrix(items.map((channel) => {
 		Object.keys(channel).forEach((field) => {
 			if (!params.includes(field)) delete channel[field];
@@ -25,11 +23,11 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	}).map((item) => Object.values(item))));
 	const matrixNForItems = getMatrixNForItems(matrixAForItems);
 	const omegaForItems = getOmegaForItems(matrixNForItems);
-	if (getCR(matrixN, matrixA, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
+	if (getCR(matrixN, weights, getOmega(getTransposedMatrix(matrixN))) >= 0.1) {
 		alert('Матрица рассогласована');
 		throw new Error('Матрица рассогласована');
 	}
-	return getFinalOmega(getTransposedMatrix(omegaForItems), getOmega(getTransposedMatrix(matrixN)));
+	return getResultOmega(getTransposedMatrix(omegaForItems), getOmega(getTransposedMatrix(matrixN)));
 };
 
 export default getHierarchyAnalysisResult;
