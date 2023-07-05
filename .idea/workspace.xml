@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Added getClearMatrixA test">
+    <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/ahp/getHierarchyAnalysisResult.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/getIsConsistency.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getIsConsistency.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/getMatrixN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/getMatrixN.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ahp/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getHierarchyAnalysisResult.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ahp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getClearMatrixA">
+  <component name="RunManager" selected="Jest.getHierarchyAnalysisResult">
     <configuration name="firstTest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -101,15 +101,15 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getResultOmega" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="getHierarchyAnalysisResult" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/ahp/__tests__/getResultOmega.test.ts" />
+      <test-file value="$PROJECT_DIR$/ahp/__tests__/getHierarchyAnalysisResult.test.ts" />
       <test-names>
-        <test-name value="getResultOmega" />
+        <test-name value="getHierarchyAnalysisResult" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.getHierarchyAnalysisResult" />
         <item itemvalue="Jest.getClearMatrixA" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Jest.firstTest" />
         <item itemvalue="Jest.getSumColumnsMatrixAForItems" />
-        <item itemvalue="Jest.getResultOmega" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +156,7 @@
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
       <workItem from="1688499398950" duration="13222000" />
-      <workItem from="1688579730020" duration="4147000" />
+      <workItem from="1688579730020" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -374,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688582917781</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1688584126145</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688584126145</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +425,7 @@
     <MESSAGE value="Added getSumColumnsMatrixAForItems test" />
     <MESSAGE value="Added getHierarchyAnalysisResult test" />
     <MESSAGE value="Added getClearMatrixA test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getClearMatrixA test" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>
