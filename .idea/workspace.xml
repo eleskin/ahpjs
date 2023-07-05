@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30abcb9-2ecd-485e-9cd1-6d3b3d232a59" name="Changes" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/ahp/getHierarchyAnalysisResult.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/__tests__/getHierarchyAnalysisResult.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahp/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ahp/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elesk\WebstormProjects\ahpjs\ahp\__tests__" />
+      <recent name="C:\Users\elesk\WebstormProjects\ahpjs\ahp" />
       <recent name="C:\Users\elesk\WebstormProjects\ahpjs\public" />
     </key>
   </component>
@@ -156,7 +155,7 @@
       <workItem from="1688157143806" duration="6742000" />
       <workItem from="1688416820784" duration="1368000" />
       <workItem from="1688499398950" duration="13222000" />
-      <workItem from="1688579730020" duration="4644000" />
+      <workItem from="1688579730020" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jest">
       <option name="closed" value="true" />
@@ -382,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688584126145</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1688584743321</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688584743321</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
