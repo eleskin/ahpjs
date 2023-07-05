@@ -4,6 +4,7 @@ import getCR from './getCR';
 import getOmega from './getOmega';
 import getTransposedMatrix from './getTransposedMatrix';
 import decimalAdjust from './decimalAdjust';
+import getIsConsistency from './getIsConsistency';
 
 const getMatrixN = (matrixA: Matrix): Matrix => {
 	const transposedMatrixA = getTransposedMatrix(matrixA)
@@ -16,11 +17,10 @@ const getMatrixN = (matrixA: Matrix): Matrix => {
 	if (transposedMatrixN.length === [...new Set(array)].length) {
 		return transposedMatrixN;
 	} else {
-		if (getCR(transposedMatrixN.length, matrixA, omega) >= 0.1) {
-			throw new Error('Матрица рассогласована');
-		} else {
-			return transposedMatrixN;
-		}
+		const cr: number = getCR(transposedMatrixN.length, matrixA, omega);
+		getIsConsistency(cr);
+		
+		return transposedMatrixN;
 	}
 };
 

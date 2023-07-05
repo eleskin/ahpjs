@@ -6,6 +6,7 @@ import getCR from './getCR';
 import getOmega from './getOmega';
 import getResultOmega from './getResultOmega';
 import getClearMatrixA from './getClearMatrixA';
+import getIsConsistency from './getIsConsistency';
 
 export type Matrix = number[][];
 
@@ -19,9 +20,10 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
     const matrixAForItems = getMatrixAForItems(clearMatrixA);
     const matrixNForItems = getMatrixNForItems(matrixAForItems);
     const omegaForItems = getOmegaForItems(matrixNForItems);
-    if (getCR(matrixN.length, weights, getOmega(matrixN)) >= 0.1) {
-        throw new Error('Матрица рассогласована');
-    }
+    const cr = getCR(matrixN.length, weights, getOmega(matrixN));
+    
+    getIsConsistency(cr);
+    
     return getResultOmega(omegaForItems, getOmega(matrixN));
 };
 
