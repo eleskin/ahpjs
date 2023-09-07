@@ -1,9 +1,10 @@
 {
   "name": "ahpjs",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "",
   "main": "./dist/bundle.js",
   "bin": "./dist/bundle.js",
+  "homepage": "https://github.com/eleskin/ahpjs#readme",
   "scripts": {
     "test": "jest",
     "build": "webpack",
