@@ -1,8 +1,9 @@
 {
   "name": "ahpjs",
-  "version": "1.0.0",
+  "version": "1.0.21",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
+  "bin": "./dist/bundle.js",
   "scripts": {
     "test": "jest",
     "build": "webpack",
