@@ -7,13 +7,13 @@ import decimalAdjust from './decimalAdjust';
 import getIsConsistency from './getIsConsistency';
 
 const getMatrixN = (matrixA: Matrix): Matrix => {
-	const transposedMatrixA = getTransposedMatrix(matrixA)
+	const transposedMatrixA: Matrix = getTransposedMatrix(matrixA)
 	const matrixN: Matrix = transposedMatrixA.map((column: number[], index: number) => {
 		return column.map((item: number) => decimalAdjust(item / getSumMatrixColumns(matrixA)[index]));
 	});
-	const transposedMatrixN = getTransposedMatrix(matrixN);
-	const array = transposedMatrixN.flat();
-	const omega = getOmega(transposedMatrixN);
+	const transposedMatrixN: Matrix = getTransposedMatrix(matrixN);
+	const array: number[] = transposedMatrixN.flat();
+	const omega: number[] = getOmega(transposedMatrixN);
 	if (transposedMatrixN.length === [...new Set(array)].length) {
 		return transposedMatrixN;
 	} else {

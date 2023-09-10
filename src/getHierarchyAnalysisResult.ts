@@ -15,11 +15,11 @@ const getHierarchyAnalysisResult = ({items, params, weights}: {
 	weights: Matrix
 }): number[] => {
 	const matrixN: Matrix = getMatrixN(weights);
-	const clearMatrixA = getClearMatrixA(items, params);
-	const matrixAForItems = getMatrixAForItems(clearMatrixA);
-	const matrixNForItems = getMatrixNForItems(matrixAForItems);
+	const clearMatrixA: Matrix = getClearMatrixA(items, params);
+	const matrixAForItems: Matrix[] = getMatrixAForItems(clearMatrixA);
+	const matrixNForItems: Matrix[] = getMatrixNForItems(matrixAForItems);
 	const omegaForItems = getOmegaForItems(matrixNForItems);
-	const cr = getCR(matrixN.length, weights, getOmega(matrixN));
+	const cr: number = getCR(matrixN.length, weights, getOmega(matrixN));
 	
 	getIsConsistency(cr);
 	

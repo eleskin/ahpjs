@@ -1,7 +1,7 @@
 import {Matrix} from './index';
 import decimalAdjust from './decimalAdjust';
 
-const getMatrixAForItems = (matrix: Matrix) => {
+const getMatrixAForItems = (matrix: Matrix): Matrix[] => {
 	return matrix.map((row: number[]) => {
 		return row.map((rowItem: number) => {
 			const array: number[] = [];

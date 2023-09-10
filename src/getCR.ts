@@ -2,7 +2,7 @@ import getMultipliedMatrix from './getMultipliedMatrix';
 import {Matrix} from './index';
 import decimalAdjust from './decimalAdjust';
 
-const getCR = (n: number, matrixA: Matrix, omega: number[]) => {
+const getCR = (n: number, matrixA: Matrix, omega: number[]): number => {
 	const formattedOmega: Matrix = omega.map((item: number) => [item]);
 	const vector: number[] = getMultipliedMatrix(matrixA, formattedOmega)
 		.map((row: number[]) => row.filter((item: number) => !isNaN(item))).flat();

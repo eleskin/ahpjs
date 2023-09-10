@@ -3,7 +3,7 @@ import {Matrix} from './index';
 
 const getClearMatrixA = (items: { [key: string]: number; }[], params: string[]): Matrix => {
 	return getTransposedMatrix(items.map((channel: { [key: string]: number; }) => {
-		Object.keys(channel).forEach((field: string) => {
+		Object.keys(channel).forEach((field: string): void => {
 			if (!params.includes(field)) delete channel[field];
 		});
 		return channel;

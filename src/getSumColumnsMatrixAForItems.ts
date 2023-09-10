@@ -1,10 +1,11 @@
 import getTransposedMatrix from './getTransposedMatrix';
 import decimalAdjust from './decimalAdjust';
+import {Matrix} from './index';
 
-const getSumColumnsMatrixAForItems = (matrixAForItems) => {
-	return matrixAForItems.map((matrix) => {
-			return getTransposedMatrix(matrix).map((column) => {
-				return column.reduce((accumulator, currentValue) => decimalAdjust(accumulator + currentValue), 0);
+const getSumColumnsMatrixAForItems = (matrixAForItems: Matrix[]): Matrix => {
+	return matrixAForItems.map((matrix: Matrix) => {
+			return getTransposedMatrix(matrix).map((column: number[]) => {
+				return column.reduce((accumulator: number, currentValue: number) => decimalAdjust(accumulator + currentValue), 0);
 			});
 		},
 	);
