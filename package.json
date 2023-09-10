@@ -1,6 +1,6 @@
 {
   "name": "ahpjs",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "",
   "main": "./dist/bundle.js",
   "bin": "./dist/bundle.js",
